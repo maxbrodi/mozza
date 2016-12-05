@@ -4,23 +4,15 @@
     }
 
 .wrapper-white {
-    background: rgb(255, 255, 255);
+    background: #FFFFFF;
     padding: 30px 0px;
 }
 
 .wrapper-grey {
-    background: rgb(246, 249, 252);
+    background: #F6F9FC;
     padding: 30px 0px;
 }
 
-.container {
-    width: 970px;
-}
-
-.row {
-    margin-right: -15px;
-    margin-left: -15px;
-}
 
 #hero {
     height: 100vh;
@@ -44,6 +36,11 @@
     margin: 0px;
     }
 
+img {
+    max-height: 200px; 
+    max-width: 200px; 
+}
+
 #description {
     text-align: center;
     font-family: roboto;
@@ -51,35 +48,111 @@
     font-weight: bold;
     padding-top: 70px;
     padding-bottom: 70px;
-    padding-right: 120px;
-    padding-left: 120px;
+    padding-right: 80px;
+    padding-left: 80px;
 }
 
+#title {
+    text-align: center;
+    font-family: roboto;
+    font-size: 36px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
 .card {
     padding: 30px;
     background: white;
     margin: 10px auto;
+    max-width: 300px;
+    min-height: 298px;
 }
 
 
 #audit {
     border-top-style: solid;
-    border-top-color: rgb(46, 204, 113);
+    border-top-color: #2ECC71;
     border-top-width: 15px;
     text-align: center;
 }
 
 #strategy {
     border-top-style: solid;
-    border-top-color: rgb(255, 107, 105);
+    border-top-color: #FF6B69;
     border-top-width: 15px;
     text-align: center;
 }
 
 #experiments {
     border-top-style: solid;
-    border-top-color: rgb(217, 30, 24);
+    border-top-color: #D91E18;
     border-top-width: 15px;
     text-align: center;
 }
+
+.card-title {
+    text-align: center;
+    font-family: roboto;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.card-description{
+    text-align: left;
+    font-size: 12px;
+    color: #BDBDBD;
+    padding-top: 22px;
+    padding-bottom: 32px;
+}
+
+button.btn {
+    padding: 7px 44px;
+    font-family: roboto;
+    }
+
+button.btn-primary {
+    background-color: #2ECC71;
+    border-color: #2ECC71;
+    }
+
+button.btn-primary:hover {
+    background-color: #19A152;
+    border-color: #19A152;
+}
+
+
+button.btn-success {
+    background-color: #FF6B69;
+    border-color: #FF6B69;
+    }
+
+button.btn-success:hover {
+    background-color: #E94947;
+    border-color: #E94947;
+}
+
+
+button.btn-info {
+    background-color: #D91E18;
+    border-color: #D91E18;
+    }
+
+button.btn-info:hover {
+    background-color: #B91914;
+    border-color: #B91914;
+}
+
+.wrapper-blue {
+    background-color: #455566;
+    color: #FFFFFF;
+}
+
+.slideshare {
+    text-align: center;
+    left: 20%;
+    right: 20%;
+    top: 20%;
+    bottom: 20%;
+    margin: 0px;
+}
+
